@@ -1,4 +1,4 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+﻿strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
+A,fixed_characters,500,50,"document_id; source; page_id; pdf_page; printed_page; chapter",none,intfloat/e5-small-v2,"Thiết lập mốc so sánh với cửa sổ cố định và phần chồng lấn.",1/15,8/15,2/5,2/5,"138 chunk. Tổng thời gian nạp A+B là 13.05 s. Chi phí API: 0."
+B,heading_and_sentence,500,"50 only for sentences longer than 500 characters","document_id; source; page_id; pdf_page; printed_page; chapter",none,intfloat/e5-small-v2,"Ưu tiên ranh giới đề mục và câu để giữ trọn bằng chứng trong chunk.",8/15,12/15,2/5,3/5,"157 chunk. Chọn trên dev vì hòa C về điểm và truy xuất đơn giản hơn."
+C,reuse_B,500,same_as_B,"document_id; source; page_id; pdf_page; printed_page; chapter","chapter when requested",intfloat/e5-small-v2,"Lọc theo chương có thể giảm kết quả ngoài phạm vi câu hỏi.",8/15,12/15,2/5,3/5,"Dùng lại 157 chunk của B. q16 trả 3/3 chunk đúng chương nhưng bằng chứng vẫn bị cắt."

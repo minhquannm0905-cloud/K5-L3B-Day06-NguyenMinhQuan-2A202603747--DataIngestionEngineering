@@ -45,3 +45,21 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+## Cách chạy bài làm
+
+Bài làm dùng chương 3–5 của *Think Stats 2e* và mô hình embedding `intfloat/e5-small-v2` chạy trên CPU.
+
+1. Đặt PDF tại `data/raw/thinkstats2-c3-c5.pdf`. Nếu cần tạo lại, tải [PDF gốc](https://greenteapress.com/thinkstats2/thinkstats2.pdf) và cắt theo **số trang in 31–73**. Xem [manifest dữ liệu](data/manifest.json) để đối chiếu số trang và giấy phép.
+2. Làm theo phần cài đặt trong [starter/README.md](starter/README.md) để khởi động PostgreSQL + pgvector. Khi `check_setup.py` báo `Setup OK`, quay về thư mục gốc của repo và chạy:
+
+```powershell
+python -m pip install sentence-transformers
+python .\src\ingestion.py
+python .\src\chunking.py
+python .\src\index_chunks.py
+python .\src\evaluation.py --split dev
+python .\src\evaluation.py --split test
+```
+
+Lần đầu chạy embedding cần mạng để tải model từ Hugging Face. Kết quả được lưu trong `results/`. Xem [báo cáo cá nhân](report/individual/2A202603747_NguyenMinhQuan.md) để biết kết quả và phân tích.

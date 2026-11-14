@@ -1,0 +1,281 @@
+{
+  "source_id": "thinkstats2-c3-c5",
+  "title": "Think Stats 2e — Chapters 3–5",
+  "author": "Allen B. Downey",
+  "source_path_or_url": "https://greenteapress.com/thinkstats2/thinkstats2.pdf",
+  "local_path": "data/raw/thinkstats2-c3-c5.pdf",
+  "license_or_permission": "CC BY-NC-SA 4.0",
+  "accessed_at": "2026-11-14",
+  "pdf_page_count": 43,
+  "page_mapping": {
+    "pdf_pages": [
+      1,
+      43
+    ],
+    "printed_pages": [
+      31,
+      73
+    ]
+  },
+  "selection_note": "Selected chapters 3–5. Blank printed page 74 was omitted.",
+  "pages": [
+    {
+      "page_id": "thinkstats2-c3-c5-p31",
+      "pdf_page": 1,
+      "printed_page": 31,
+      "char_count": 813
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p32",
+      "pdf_page": 2,
+      "printed_page": 32,
+      "char_count": 1072
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p33",
+      "pdf_page": 3,
+      "printed_page": 33,
+      "char_count": 1411
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p34",
+      "pdf_page": 4,
+      "printed_page": 34,
+      "char_count": 1030
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p35",
+      "pdf_page": 5,
+      "printed_page": 35,
+      "char_count": 1522
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p36",
+      "pdf_page": 6,
+      "printed_page": 36,
+      "char_count": 909
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p37",
+      "pdf_page": 7,
+      "printed_page": 37,
+      "char_count": 1534
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p38",
+      "pdf_page": 8,
+      "printed_page": 38,
+      "char_count": 714
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p39",
+      "pdf_page": 9,
+      "printed_page": 39,
+      "char_count": 1038
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p40",
+      "pdf_page": 10,
+      "printed_page": 40,
+      "char_count": 877
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p41",
+      "pdf_page": 11,
+      "printed_page": 41,
+      "char_count": 1438
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p42",
+      "pdf_page": 12,
+      "printed_page": 42,
+      "char_count": 2103
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p43",
+      "pdf_page": 13,
+      "printed_page": 43,
+      "char_count": 970
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p44",
+      "pdf_page": 14,
+      "printed_page": 44,
+      "char_count": 40
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p45",
+      "pdf_page": 15,
+      "printed_page": 45,
+      "char_count": 1056
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p46",
+      "pdf_page": 16,
+      "printed_page": 46,
+      "char_count": 1281
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p47",
+      "pdf_page": 17,
+      "printed_page": 47,
+      "char_count": 1495
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p48",
+      "pdf_page": 18,
+      "printed_page": 48,
+      "char_count": 1163
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p49",
+      "pdf_page": 19,
+      "printed_page": 49,
+      "char_count": 862
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p50",
+      "pdf_page": 20,
+      "printed_page": 50,
+      "char_count": 1182
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p51",
+      "pdf_page": 21,
+      "printed_page": 51,
+      "char_count": 1064
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p52",
+      "pdf_page": 22,
+      "printed_page": 52,
+      "char_count": 1721
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p53",
+      "pdf_page": 23,
+      "printed_page": 53,
+      "char_count": 1112
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p54",
+      "pdf_page": 24,
+      "printed_page": 54,
+      "char_count": 1526
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p55",
+      "pdf_page": 25,
+      "printed_page": 55,
+      "char_count": 1532
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p56",
+      "pdf_page": 26,
+      "printed_page": 56,
+      "char_count": 618
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p57",
+      "pdf_page": 27,
+      "printed_page": 57,
+      "char_count": 971
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p58",
+      "pdf_page": 28,
+      "printed_page": 58,
+      "char_count": 1355
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p59",
+      "pdf_page": 29,
+      "printed_page": 59,
+      "char_count": 953
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p60",
+      "pdf_page": 30,
+      "printed_page": 60,
+      "char_count": 1903
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p61",
+      "pdf_page": 31,
+      "printed_page": 61,
+      "char_count": 1375
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p62",
+      "pdf_page": 32,
+      "printed_page": 62,
+      "char_count": 1061
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p63",
+      "pdf_page": 33,
+      "printed_page": 63,
+      "char_count": 1244
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p64",
+      "pdf_page": 34,
+      "printed_page": 64,
+      "char_count": 1311
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p65",
+      "pdf_page": 35,
+      "printed_page": 65,
+      "char_count": 1278
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p66",
+      "pdf_page": 36,
+      "printed_page": 66,
+      "char_count": 1640
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p67",
+      "pdf_page": 37,
+      "printed_page": 67,
+      "char_count": 1530
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p68",
+      "pdf_page": 38,
+      "printed_page": 68,
+      "char_count": 1305
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p69",
+      "pdf_page": 39,
+      "printed_page": 69,
+      "char_count": 867
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p70",
+      "pdf_page": 40,
+      "printed_page": 70,
+      "char_count": 1184
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p71",
+      "pdf_page": 41,
+      "printed_page": 71,
+      "char_count": 1837
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p72",
+      "pdf_page": 42,
+      "printed_page": 72,
+      "char_count": 2143
+    },
+    {
+      "page_id": "thinkstats2-c3-c5-p73",
+      "pdf_page": 43,
+      "printed_page": 73,
+      "char_count": 1736
+    }
+  ]
+}
